@@ -1,0 +1,19 @@
+.bobo{
+    display: flex;
+    justify-content: space-around;
+}
+.dodajon{
+    transform: translate(220px , -25px);
+    position: absolute;
+}
+.card{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 270px;
+    height: 450px;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}

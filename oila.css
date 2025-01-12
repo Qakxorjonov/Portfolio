@@ -1,0 +1,104 @@
+nav{
+    display: flex;
+    background-color:white;
+    align-items: center;
+    height: 100px;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: darkcyan;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.az{
+    background-color: darkcyan;
+}
+.buttom{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 25px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.card{
+    width:340px;
+    gap: 13px;
+    border-radius: 26px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+img{
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.bobo{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.90s;
+}
+
+h1{
+    color: black;
+}
+h2{
+    margin-left: 100px;
+    cursor: pointer;
+}
+h2:hover{
+    color: darkcyan;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.e {
+    background-color: white;
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    transition: 0.5s;
+    margin-left: 670px;
+}
+
+.e:hover {
+    background-color: transparent;
+    color: white;
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+.bl{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.bl:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.man{
+    margin-left: 425px;
+}

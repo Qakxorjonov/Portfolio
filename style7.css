@@ -1,33 +1,51 @@
-.product-card button {
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    color: white;
+.card {
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    width: 290px;
+    height: 400px;
     cursor: pointer;
-    padding: 10px 20px;
-    margin-top: 10px;
+    position: relative;
 }
-.product-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+
+.aziz {
+    position: absolute;
+    animation-name: aziz;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    right: 0px;
+    top: -50px;
+    right: -50px;
 }
-.product-card button:hover {
-    background-color: blue;
+
+.buvijonim {
+    display: flex;
 }
-.product-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0 10px;
-    padding: 20px;
-    text-align: center;
-    width:200px;
-    display: inline-block;
-    margin-left: 600px;
+
+.avaz {
+    margin-left: 130px;
+    cursor: pointer;
 }
-.ava{
-    background-color: #007BFF;
-    border-radius: 4px;
+
+.bobo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    transition: 0.8s;
+}
+
+@keyframes aziz {
+    from {}
+
+    to {
+        transform: rotate(-20deg);
+
+    }
+}
+
+.aziz {
+    position: absolute;
+    top: -50px;
+    right: -50px;
 }

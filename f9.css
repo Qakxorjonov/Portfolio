@@ -1,0 +1,99 @@
+nav{
+    display: flex;
+    background-color: white;
+    width: 1430px;
+    align-items: center;
+    height: 100px;
+    margin-left: 70px;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card {
+    width: 500px;
+    height: 480px;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.buttom {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 25px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+button {
+    background-color: darkcyan;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.guruh{
+    text-align: center;
+    cursor: pointer;
+}
+.guruh:hover{
+    color: darkcyan;
+    transition: 0.9s;
+}
+body{
+    font-family: sans-serif;
+}
+.cards{
+    display: flex;
+}
+.bobo{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+img{
+    border-radius: 10px;
+}
+h2{
+    cursor: pointer;
+}
+h2:hover{
+    color: darkcyan;
+}
+.e{
+    margin-left: 705px;
+}
+.bl{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.bl:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.man{
+    margin-left: 425px;
+}
